@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #dd830e;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color:#fff;
+    color: #dd830e;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-lista .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Abril Fatface, serif;
+}
+
+#sobre-a-loja,
+#modelos {
+    background-color: #f5e4cd;
+}
+
+.text-colored {
+    color: #dd830e;
+}
+
+.carousel-item {
+    width: 100%; 
+    height: 500px;
+    object-fit: cover;
+}
+
+.nav-lista .nav-link.active,
+#contato button {
+    background-color: #dd830e;
+    color: #fff;
+}
+
+.nav-lista .nav-link:hover {
+    color: #dd830e;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 450px;
+    }
+}
